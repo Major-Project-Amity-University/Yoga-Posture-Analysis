@@ -1,5 +1,0 @@
-This file contains requirments for the project
-1) pandas
-2) numpy
-3) tensorflow
-4) cv2
