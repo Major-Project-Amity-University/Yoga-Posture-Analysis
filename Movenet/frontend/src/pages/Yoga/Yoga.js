@@ -165,7 +165,7 @@ function Yoga() {
           return [keypoint.x, keypoint.y]
         }) 
         if(notDetected > 4) {
-          skeletonColor = 'rgb(255,255,255)'
+          skeletonColor = 'rgb(257, 110, 110)'
           return
         }
         const processedInput = landmarks_to_embedding(input)
@@ -279,14 +279,8 @@ function Yoga() {
       <button
           onClick={startYoga}
           className="secondary-btn"    
-        >Start Pose</button>
+        >Try This Pose</button>
     </div>
   )
 }
-
-{/* <button
-          onClick={startYoga}
-          className="secondary-btn"    
-        >Start Pose</button> */}
-
 export default Yoga

@@ -1,25 +1,26 @@
 .yoga-container {
-    background: linear-gradient(100deg, #FF8C00, #FFA500);
-    min-width: 100vw;
+    width: 100vw;
     min-height: 100vh;
+    background: #9f9f9f;
 }
-
 .secondary-btn {
     position: relative;
     left: 45%;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     border-radius: 5px;
-    border-color: rgba(125, 125, 125, 0.1);
-    border-width: 5px;
-    background-color: rgba(0, 0, 0,0.2);
-    box-shadow: 0px 0px 0px 0px;
-    color: white;
+    border: 2px solid #666; 
+    background-color: #ccc; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+    color: #333; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
 }
-
 .secondary-btn:hover {
-    background-color: rgba(0, 0, 0,0.4);
+    background-color: #999; 
+    border-color: #333; 
+    color: white; 
 }
-
 .starting-contdown {
     margin: auto;
     border: 10px solid rgba(125, 125, 125, 0.5);

@@ -14,25 +14,19 @@ export default function Home() {
                         className="btn btn-secondary" 
                         id="about-btn"
                     >
-                        About
+                        About Us
                     </button>
                 </Link>
             </div>
 
-            <h1 className="description">A Yoga AI Trainer</h1>
+            <h1 className="description">Your Personal & Digital Yoga Trainer</h1>
             <div className="home-main">
                 <div className="btn-section">
                     <Link to='/start'>
                         <button
                             className="btn start-btn"
-                        >Let's Start</button>
+                        >Get Started</button>
                     </Link>
-                    <Link to='/tutorials'>
-                        <button
-                            className="btn start-btn"
-                        >Tutorials</button>
-                    </Link>
-
                 </div>
             </div>
         </div>

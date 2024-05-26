@@ -1,8 +1,7 @@
-
 .home-header {
-    background: linear-gradient(100deg,#FF8C00, #FFA500);
+    background: linear-gradient(100deg,#800080  , #FFFF00  );
     width: 100vw;
-    height: 70px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,77 +10,69 @@
     background: black
 }
 .header-btn:hover {
-    border-color: white;
+    border-color: rgb(56, 162, 255);
 }
-
 .home-heading {
     padding: 0px;
     margin: 0px;
     font-size: 44px;
     margin-left: 30px;
-    color: white;
-    font-family: 'Kaushan Script', cursive;
+    color: rgb(243, 243, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
 .home-main {
     margin: auto;
-    margin-top: -50px;
+    margin-top: -88.5px;
     width: 100vw;
-    height: 100vh;    
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.8)), url('../../utils/images/yoga_pose.png') ;
+    height: 90.9vh;    
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(147, 148, 107, 0.8)), url('../../utils/images/yoga_pose.png') ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size:  750px;
+    background-size:  800px;
+    
 }
-
 .description {
-    font-size: 66px;
-    color: white;
+    font-size: 45px;
+    color: #FFD700 ;
     text-align: center;
     margin: 0px;
-    margin-top: 10px;
+    margin-top: 34.5px;
     font-family: 'Raleway', sans-serif;
     letter-spacing: 0.5px;
 }
-
 .btn-section {
     position: absolute;
-    left: 38vw;
+    left: 42vw;
     top: 60vh;
 }
-
 .btn{
-    padding: 10px;
+    padding: 0px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 10px 20px 10px 20px;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     font-size: 24px;
-    border-color: #FFA500;
+    border-color: #800080 ;
     border-radius: 8px;
-    border-width: 4px;
+    border-width: 2px;
     cursor: pointer;
 }
 .btn:hover {
     background: rgba(255,165,0, 0.2);
     color: white;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
 #about-btn {
-    padding: 5px 10px;
-}
-#about-btn:hover {
-    border-color: white;
-    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px;
+    border: none;
     color: black;
 }
 #about-btn:focus {
-    box-shadow: none;
-    background: white;
-    border-color: white;
-    color: black;
+    background: rgba(255,165,0, 0.2);
+    color: white;
 }
