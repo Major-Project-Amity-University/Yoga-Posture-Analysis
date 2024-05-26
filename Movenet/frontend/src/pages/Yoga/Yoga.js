@@ -215,10 +215,10 @@ function Yoga() {
       <div className="yoga-container">
         <div className="performance-container">
             <div className="pose-performance">
-              <h4>Pose Time: {poseTime} s</h4>
+              <h4>Current Hold: {poseTime} s</h4>
             </div>
             <div className="pose-performance">
-              <h4>Best: {bestPerform} s</h4>
+              <h4>Highest Hold: {bestPerform} s</h4>
             </div>
           </div>
         <div>
@@ -259,7 +259,7 @@ function Yoga() {
         <button
           onClick={stopPose}
           className="secondary-btn"    
-        >Stop Pose</button>
+        >End Pose</button>
       </div>
     )
   }

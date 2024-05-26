@@ -45,7 +45,7 @@ export default function About() {
                 </p>
                 <h2>Contact Us</h2>
                 <p>
-                    We love hearing from our community! If you have any questions, feedback, or suggestions, please don't hesitate to reach out to us at <a href="mailto:sagarwadhwa888@gmail.com" color='#333333'>sagarwadhwa888@gmail.com</a>.
+                    We love hearing from our community! If you have any questions, feedback, or suggestions, please don't hesitate to reach out to us at <a href="mailto:sagarwadhwa888@gmail.com" color='#333333'>sagarwadhwa888@gmail.com</a>, <a href="mailto:anshu.me.maan01@gmail.com" color='#333333'>anshu.me.maan01@gmail.com</a>
                 </p>
                 <p>Thank you for visiting ZEN AI Yoga Trainer. Namaste 🙏.</p>
                 </p>
